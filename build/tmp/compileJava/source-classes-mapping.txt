@@ -1,0 +1,30 @@
+userinterfaces/homepage/Header.java
+ userinterfaces.homepage.Header
+userinterfaces/globalcomponents/postsfeed/PostsFilter.java
+ userinterfaces.globalcomponents.postsfeed.PostsFilter
+userinterfaces/globalcomponents/header/useractions/ProfileOptions.java
+ userinterfaces.globalcomponents.header.useractions.ProfileOptions
+userinterfaces/loginpage/ClassicLoginComponents.java
+ userinterfaces.loginpage.ClassicLoginComponents
+userinterfaces/globalcomponents/posts/KarmaComponent.java
+ userinterfaces.globalcomponents.posts.KarmaComponent
+userinterfaces/HomePage.java
+ userinterfaces.HomePage
+userinterfaces/globalcomponents/header/useractions/UserActions.java
+ userinterfaces.globalcomponents.header.useractions.UserActions
+userinterfaces/globalcomponents/postsfeed/PostsFeed.java
+ userinterfaces.globalcomponents.postsfeed.PostsFeed
+userinterfaces/globalcomponents/posts/PostInfoComponent.java
+ userinterfaces.globalcomponents.posts.PostInfoComponent
+tasks/Login.java
+ tasks.Login
+tasks/EntersActivityPosts.java
+ tasks.EntersActivityPosts
+userinterfaces/profilepage/UserActivity.java
+ userinterfaces.profilepage.UserActivity
+tasks/SaveFeedPost.java
+ tasks.SaveFeedPost
+userinterfaces/globalcomponents/posts/ActionsComponent.java
+ userinterfaces.globalcomponents.posts.ActionsComponent
+tasks/UnsavePost.java
+ tasks.UnsavePost
