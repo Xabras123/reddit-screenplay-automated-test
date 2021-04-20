@@ -66,8 +66,11 @@ public class SavePostStepdefinitions {
 
     }
 
-    @After
+    @After("@SavePost")
     public void tearDown(){
+
+        System.out.println("Termine de salvear el post!");
+
         theActorInTheSpotlight().wasAbleTo(
                 SaveFeedPost.inPosition(1)
         );

@@ -28,3 +28,17 @@ userinterfaces/globalcomponents/posts/ActionsComponent.java
  userinterfaces.globalcomponents.posts.ActionsComponent
 tasks/UnsavePost.java
  tasks.UnsavePost
+tasks/JoinSubreddit.java
+ tasks.JoinSubreddit
+userinterfaces/globalcomponents/subreddit/SubHeader.java
+ userinterfaces.globalcomponents.subreddit.SubHeader
+userinterfaces/globalcomponents/header/postsfilters/PostFilters.java
+ userinterfaces.globalcomponents.header.postsfilters.PostFilters
+tasks/SearchInSearchBar.java
+ tasks.SearchInSearchBar
+userinterfaces/globalcomponents/header/postsfilters/SearchComponent.java
+ userinterfaces.globalcomponents.header.postsfilters.SearchComponent
+tasks/SearchInPostFilter.java
+ tasks.SearchInPostFilter
+tasks/LeaveSubreddit.java
+ tasks.LeaveSubreddit

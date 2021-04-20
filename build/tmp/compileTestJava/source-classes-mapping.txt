@@ -1,4 +1,8 @@
 runners/SavePost.java
  runners.SavePost
+runners/JoinSubreddit.java
+ runners.JoinSubreddit
 stepdefinitions/SavePostStepdefinitions.java
  stepdefinitions.SavePostStepdefinitions
+stepdefinitions/JoinSubredditStepdefinitions.java
+ stepdefinitions.JoinSubredditStepdefinitions
