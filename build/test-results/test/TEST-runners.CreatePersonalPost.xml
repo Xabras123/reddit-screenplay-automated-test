@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runners.CreatePersonalPost" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="CPX-FIGG3BM9NOP" time="0.0">
+  <properties/>
+  <system-out><![CDATA[15:16:37.393 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\serenity.properties 
+15:16:37.504 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\serenity.properties 
+15:16:37.505 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\serenity.properties 
+15:16:37.511 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+15:16:37.511 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
+15:16:37.511 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--lang=es,--disable-popup-blocking,--disable-download-notification,--start-maximized,--test-type,--ignore-certificate-errors, --allow-running-insecure-content, --disable-translate, --always-authorizeplugins, --disable-extensions, --disable-notifications
+15:16:37.511 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name="Reddit automated test"
+15:16:37.724 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\serenity.properties 
+15:16:37.786 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\serenity.properties 
+15:16:37.787 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\serenity.properties 
+15:16:37.788 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+15:16:37.788 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
+15:16:37.788 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--lang=es,--disable-popup-blocking,--disable-download-notification,--start-maximized,--test-type,--ignore-certificate-errors, --allow-running-insecure-content, --disable-translate, --always-authorizeplugins, --disable-extensions, --disable-notifications
+15:16:37.789 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name="Reddit automated test"
+15:16:37.798 [Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at https://www.serenitydojo.net                           
+-------------------------------------------------------------------------------------
+
+15:16:37.802 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@7b33932d
+15:16:37.803 [Test worker] INFO  - Test Suite Started: Functionality -Create a personal post on the profile page
+15:17:22.592 [Test worker] INFO  - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST TO BE PERFORMED - Create a personal post on the profile page
+----------------------------------------------------------------------------
+15:17:22.624 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+15:17:22.777 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+15:17:22.798 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@30fb06fe
+15:17:22.800 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Functionality -Create a personal post on the profile page:TEST TO BE PERFORMED - Create a personal post on the profile page
+15:17:22.800 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@30fb06fe: Generating report for test outcome: Functionality -Create a personal post on the profile page:TEST TO BE PERFORMED - Create a personal post on the profile page
+15:17:22.802 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for TEST TO BE PERFORMED - Create a personal post on the profile page to file C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\41ff501a31406ed59c2b8bbc86c43497fd6726347c32e1cb837fbb743dfea1d5.json (using temp file C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\41ff501a31406ed59c2b8bbc86c43497fd6726347c32e1cb837fbb743dfea1d5.json71eb4aeb-742c-4d9b-9853-411a79ad543c)
+15:17:22.840 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Functionality -Create a personal post on the profile page:TEST TO BE PERFORMED - Create a personal post on the profile page done
+15:17:22.840 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+15:17:22.840 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 42 ms
+15:17:22.840 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@486eb821
+15:17:22.840 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Functionality -Create a personal post on the profile page:TEST TO BE PERFORMED - Create a personal post on the profile page
+15:17:22.840 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@486eb821: Generating report for test outcome: Functionality -Create a personal post on the profile page:TEST TO BE PERFORMED - Create a personal post on the profile page
+15:17:22.840 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR TEST TO BE PERFORMED - Create a personal post on the profile page in 41ff501a31406ed59c2b8bbc86c43497fd6726347c32e1cb837fbb743dfea1d5
+15:17:22.883 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Functionality -Create a personal post on the profile page', type='feature' parent = 'null', cardNumber='null'}, Requirement{name='Functionality -Join Subreddit', type='feature' parent = 'null', cardNumber='null'}, Requirement{name='Functionality -Save a post', type='feature' parent = 'null', cardNumber='null'}]
+15:17:22.890 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome TEST TO BE PERFORMED - Create a personal post on the profile page-[]: Optional[Requirement{name='Functionality -Create a personal post on the profile page', type='feature' parent = 'null', cardNumber='null'}]
+15:17:22.893 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome TEST TO BE PERFORMED - Create a personal post on the profile page-[]: Optional[Requirement{name='Functionality -Create a personal post on the profile page', type='feature' parent = 'null', cardNumber='null'}]
+15:17:22.959 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome TEST TO BE PERFORMED - Create a personal post on the profile page-[]: Optional[Requirement{name='Functionality -Create a personal post on the profile page', type='feature' parent = 'null', cardNumber='null'}]
+15:17:22.959 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome TEST TO BE PERFORMED - Create a personal post on the profile page-[]: Optional[Requirement{name='Functionality -Create a personal post on the profile page', type='feature' parent = 'null', cardNumber='null'}]
+15:17:22.977 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 41ff501a31406ed59c2b8bbc86c43497fd6726347c32e1cb837fbb743dfea1d5_screenshots.html
+15:17:23.538 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 41ff501a31406ed59c2b8bbc86c43497fd6726347c32e1cb837fbb743dfea1d5_screenshots.html in 561 ms
+15:17:23.538 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Functionality -Create a personal post on the profile page:TEST TO BE PERFORMED - Create a personal post on the profile page in 41ff501a31406ed59c2b8bbc86c43497fd6726347c32e1cb837fbb743dfea1d5.html in directory C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity  
+15:17:23.538 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 41ff501a31406ed59c2b8bbc86c43497fd6726347c32e1cb837fbb743dfea1d5.html
+15:17:24.438 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 41ff501a31406ed59c2b8bbc86c43497fd6726347c32e1cb837fbb743dfea1d5.html in 900 ms
+15:17:24.439 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Functionality -Create a personal post on the profile page:TEST TO BE PERFORMED - Create a personal post on the profile page done
+15:17:24.439 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+15:17:24.439 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 1599 ms
+15:17:24.660 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+15:17:24.660 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+]]></system-out>
+  <system-err><![CDATA[abr 20, 2021 3:16:37 PM cucumber.runtime.java.ObjectFactoryLoader loadSingleObjectFactory
+WARNING: Loading deprecated ObjectFactory from runtime via reflection: cucumber.runtime.SerenityObjectFactory
+]]></system-err>
+</testsuite>

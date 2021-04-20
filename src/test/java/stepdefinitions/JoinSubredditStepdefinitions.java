@@ -6,10 +6,10 @@ import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import org.openqa.selenium.WebDriver;
-import tasks.JoinSubreddit;
-import tasks.LeaveSubreddit;
-import tasks.SearchInPostFilter;
-import tasks.SearchInSearchBar;
+import tasks.globaltasks.SearchInPostFilter;
+import tasks.joinsub.JoinSubreddit;
+import tasks.joinsub.LeaveSubreddit;
+import tasks.globaltasks.SearchInSearchBar;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
@@ -48,11 +48,7 @@ public class JoinSubredditStepdefinitions {
     @After("@JoinSub")
     public void tearDown(){
 
-        try {
-            Thread.sleep(1200);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
         theActorInTheSpotlight().wasAbleTo(
                 LeaveSubreddit.byItsMainPage()
         );

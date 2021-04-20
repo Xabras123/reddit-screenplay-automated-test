@@ -2,7 +2,11 @@ runners/SavePost.java
  runners.SavePost
 runners/JoinSubreddit.java
  runners.JoinSubreddit
-stepdefinitions/SavePostStepdefinitions.java
- stepdefinitions.SavePostStepdefinitions
+runners/CreatePersonalPost.java
+ runners.CreatePersonalPost
 stepdefinitions/JoinSubredditStepdefinitions.java
  stepdefinitions.JoinSubredditStepdefinitions
+stepdefinitions/SavePostStepdefinitions.java
+ stepdefinitions.SavePostStepdefinitions
+stepdefinitions/CreatePersonalPostStepdeinitions.java
+ stepdefinitions.CreatePersonalPostStepdeinitions

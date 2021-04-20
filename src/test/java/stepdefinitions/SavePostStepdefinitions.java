@@ -10,19 +10,16 @@ import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
-import net.serenitybdd.screenplay.questions.WebElementQuestion;
-import net.serenitybdd.screenplay.waits.Wait;
 import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
-import tasks.EntersActivityPosts;
-import tasks.Login;
-import tasks.SaveFeedPost;
+import tasks.saveposts.EntersActivityPosts;
+import tasks.globaltasks.Login;
+import tasks.saveposts.UnsavePost;
 import userinterfaces.HomePage;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
-import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isPresent;
 import static net.serenitybdd.screenplay.questions.WebElementQuestion.the;
 import static userinterfaces.globalcomponents.posts.PostInfoComponent.POST_TITLE_TEXT;
 
@@ -51,9 +48,9 @@ public class SavePostStepdefinitions {
     @When("user wants to save the post number {int} from the home page")
     public void userWantsToSaveThePostNumberFromTheHomePage(int postPosition) {
 
-        SaveFeedPost savedPost;
+        UnsavePost.SaveFeedPost savedPost;
         theActorInTheSpotlight().wasAbleTo(
-                savedPost = SaveFeedPost.inPosition(postPosition),
+                savedPost = UnsavePost.SaveFeedPost.inPosition(postPosition),
                 EntersActivityPosts.inPosition(3)
         );
         savedPostTitle = savedPost.getPostTitle();
@@ -72,7 +69,7 @@ public class SavePostStepdefinitions {
         System.out.println("Termine de salvear el post!");
 
         theActorInTheSpotlight().wasAbleTo(
-                SaveFeedPost.inPosition(1)
+                UnsavePost.SaveFeedPost.inPosition(1)
         );
     }
 }

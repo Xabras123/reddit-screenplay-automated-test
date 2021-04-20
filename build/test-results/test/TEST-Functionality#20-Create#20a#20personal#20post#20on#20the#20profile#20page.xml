@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Functionality -Create a personal post on the profile page" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-20T20:16:37" hostname="CPX-FIGG3BM9NOP" time="43.679">
+  <properties/>
+  <testcase name="TEST TO BE PERFORMED - Create a personal post on the profile page" classname="Functionality -Create a personal post on the profile page" time="43.679"/>
+  <system-out><![CDATA[15:16:38.029 [Test worker] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST TO BE PERFORMED - Create a personal post on the profile page(functionality--create-a-personal-post-on-the-profile-page;test-to-be-performed---create-a-personal-post-on-the-profile-page)
+-------------------------------------------------------------------
+15:16:38.744 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SavePostStepdefinitions.thatAccentureTestingEntersWithUserForUITestingAndCorreoPruebasTesting_ - {0} opens the #targetPage
+15:16:39.405 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+15:16:39.405 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --lang=es,--disable-popup-b..., goog:chromeOptions: {args: [--lang=es, --disable-popup-blocking, --disable-download-notifica..., --start-maximized, --test-type, --ignore-certificate-errors, --allow-running-insecure-co..., --disable-translate, --always-authorizeplugins, --disable-extensions, --disable-notifications], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+15:16:44.185 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+15:16:44.185 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+15:16:44.658 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\f64902ba82e489282094ff6e9846dbe5260d2893bd7631c3b993ab99f5fa9b02.png
+15:16:44.716 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} opens the #targetPage
+15:16:45.068 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\f64902ba82e489282094ff6e9846dbe5260d2893bd7631c3b993ab99f5fa9b02.png
+15:16:45.068 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SavePostStepdefinitions.thatAccentureTestingEntersWithUserForUITestingAndCorreoPruebasTesting_ - performAs
+15:16:45.518 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\f64902ba82e489282094ff6e9846dbe5260d2893bd7631c3b993ab99f5fa9b02.png
+15:16:45.519 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Login.performAs - {0} enters #theTextAsAString into #target
+15:16:45.520 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Text input for the username credential
+15:16:46.325 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\d50ba51adcd6638edb4ff2ba02c7198a4a3134df2cc8ae6bcd47f0d0a93e49d1.png
+15:16:46.325 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+15:16:46.339 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Login.performAs - {0} enters #theTextAsAString into #target
+15:16:46.340 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Text input for the password credential
+15:16:46.707 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Text input for the password credential
+15:16:47.174 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\e5f46f92f156801e136ee4fd24951f5ede9b86483a4e4c850ef352dba57c4f2c.png
+15:16:47.175 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+15:16:47.175 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3079133829263363593
+15:16:47.175 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\e5f46f92f156801e136ee4fd24951f5ede9b86483a4e4c850ef352dba57c4f2c.png
+15:16:47.190 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+15:16:47.646 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\1f33b4c0afd07fe32af06872e1f7934a9d2a19cbc11932c506b9f7eac9c874ee.png
+15:16:47.646 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2581115076339196158
+15:16:47.646 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CreatePersonalPostStepdeinitions.userWantsToCreateAPersonalPostWithTheMessageThisIsATestTitleAndAnImageCalledTestPng - performAs
+15:16:47.646 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\1f33b4c0afd07fe32af06872e1f7934a9d2a19cbc11932c506b9f7eac9c874ee.png
+15:16:47.670 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Button to see the profile options
+15:16:56.821 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\258582af69c93fc3ffda6c74a987a95b9c2a1ed0a429bd9978800c741d7dff26.png
+15:16:56.822 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-770452503140698613
+15:16:56.822 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: EnterProfilePage.performAs - {0} clicks on #target
+15:16:56.822 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\258582af69c93fc3ffda6c74a987a95b9c2a1ed0a429bd9978800c741d7dff26.png
+15:16:56.823 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Button to see the profile options
+15:16:57.663 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\a2832ffc981fe64ddc48465674401680b465ab0010388ccb7142b11a5e8f287c.png
+15:16:57.663 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+15:16:57.663 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-504798989105006910
+15:16:57.663 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\a2832ffc981fe64ddc48465674401680b465ab0010388ccb7142b11a5e8f287c.png
+15:16:57.666 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Button to enter the user profile
+15:16:58.182 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\a2832ffc981fe64ddc48465674401680b465ab0010388ccb7142b11a5e8f287c.png
+15:16:58.183 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: EnterProfilePage.performAs - {0} clicks on #target
+15:16:58.183 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Button to enter the user profile
+15:16:59.422 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\f5462c0d10f96b5c6327b3e75644c28c39f7bad04e0f99618b0e0373bd5c1940.png
+15:16:59.422 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+15:16:59.422 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4212588599598247928
+15:16:59.423 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\f5462c0d10f96b5c6327b3e75644c28c39f7bad04e0f99618b0e0373bd5c1940.png
+15:17:00.059 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\f37382f77e64011f29ae9a13a5384307c1550ff11d392e8ba5aab9af2132f067.png
+15:17:00.060 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+15:17:00.060 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6044316192353847212
+15:17:00.060 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\f37382f77e64011f29ae9a13a5384307c1550ff11d392e8ba5aab9af2132f067.png
+15:17:00.072 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CreatePersonalPostStepdeinitions.userWantsToCreateAPersonalPostWithTheMessageThisIsATestTitleAndAnImageCalledTestPng - performAs
+Path C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\src\main\resources\images\test.jpeg
+15:17:00.106 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Button to create new post
+15:17:00.547 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\b14f97b92a6c4e3046fc85c5e50507c885d086babfe8805e677e2808666dedc9.png
+15:17:00.548 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7094159481672005573
+15:17:00.548 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CreatePersonalPost.performAs - {0} clicks on #target
+15:17:00.548 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\b14f97b92a6c4e3046fc85c5e50507c885d086babfe8805e677e2808666dedc9.png
+15:17:00.548 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Button to create new post
+15:17:01.151 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\a68b47abdf0442941caa2088b48eb259f764977518eb9c88d07734e36d8fa5bf.png
+15:17:01.151 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+15:17:01.153 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Unselected post types buttons
+15:17:02.048 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\b60643df3c17e5d23de79cb43ea8ea4578380ea4c00505f73fede1d667382c8a.png
+15:17:02.049 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CreatePersonalPost.performAs - {0} clicks on #target
+15:17:02.049 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Unselected post types buttons
+15:17:02.678 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\cead06b7c0beaf69f23fc447596434550c592d7f6025d147d9a06487f38f3dd7.png
+15:17:02.678 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+15:17:02.691 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CreatePersonalPost.performAs - {0} clicks on #target
+15:17:02.691 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Checkbox to disable/enable the notification options on the post
+15:17:03.207 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\e55185832e999e05cfd123b1732f4fe703555e1e6eab6435718ded5719304e3b.png
+15:17:03.207 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+15:17:03.219 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CreatePersonalPost.performAs - {0} enters #theTextAsAString into #target
+15:17:03.219 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Input for the new post title
+15:17:04.181 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\2323293a83ac7e875934557f251228d0093cf84c8b53cb24bbd5eac6f14d97d4.png
+15:17:04.181 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+15:17:04.181 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6209674115843375591
+15:17:04.181 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\2323293a83ac7e875934557f251228d0093cf84c8b53cb24bbd5eac6f14d97d4.png
+15:17:04.181 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Input for image path
+15:17:04.319 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Button to create the post
+15:17:09.627 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\8149d4f57d648cee5edf623ab5db051b7b6f6ecd1529a49759ad09d21b15ca3b.png
+15:17:09.627 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CreatePersonalPost.performAs - {0} clicks on #target
+15:17:09.627 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3375402779463087340
+15:17:09.627 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\8149d4f57d648cee5edf623ab5db051b7b6f6ecd1529a49759ad09d21b15ca3b.png
+15:17:09.627 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Button to create the post
+15:17:10.300 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\d098d0512b1382d9880de174be17abbbfd7208f3bdae8983f8e11e8343aabbc7.png
+15:17:10.301 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+15:17:10.302 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2681569870943060142
+15:17:10.302 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\d098d0512b1382d9880de174be17abbbfd7208f3bdae8983f8e11e8343aabbc7.png
+15:17:10.317 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+15:17:21.088 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\7a97400615e418baed2aa1e07695d9ae6221486c9def2424a528a566046f7aec.png
+15:17:21.089 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-840941810606350682
+15:17:21.089 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Title of the post
+15:17:21.089 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\7a97400615e418baed2aa1e07695d9ae6221486c9def2424a528a566046f7aec.png
+15:17:21.657 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\a.mayorga.cortes\Documents\Workspace-Java\reddit-screenplay-automated-test\target\site\serenity\7a97400615e418baed2aa1e07695d9ae6221486c9def2424a528a566046f7aec.png
+]]></system-out>
+  <system-err><![CDATA[abr 20, 2021 3:16:38 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 43680
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+abr 20, 2021 3:16:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

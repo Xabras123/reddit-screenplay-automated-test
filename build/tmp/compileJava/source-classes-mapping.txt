@@ -1,44 +1,53 @@
-userinterfaces/homepage/Header.java
- userinterfaces.homepage.Header
-userinterfaces/globalcomponents/postsfeed/PostsFilter.java
- userinterfaces.globalcomponents.postsfeed.PostsFilter
-userinterfaces/globalcomponents/header/useractions/ProfileOptions.java
- userinterfaces.globalcomponents.header.useractions.ProfileOptions
-userinterfaces/loginpage/ClassicLoginComponents.java
- userinterfaces.loginpage.ClassicLoginComponents
-userinterfaces/globalcomponents/posts/KarmaComponent.java
- userinterfaces.globalcomponents.posts.KarmaComponent
-userinterfaces/HomePage.java
- userinterfaces.HomePage
-userinterfaces/globalcomponents/header/useractions/UserActions.java
- userinterfaces.globalcomponents.header.useractions.UserActions
-userinterfaces/globalcomponents/postsfeed/PostsFeed.java
- userinterfaces.globalcomponents.postsfeed.PostsFeed
 userinterfaces/globalcomponents/posts/PostInfoComponent.java
  userinterfaces.globalcomponents.posts.PostInfoComponent
-tasks/Login.java
- tasks.Login
-tasks/EntersActivityPosts.java
- tasks.EntersActivityPosts
-userinterfaces/profilepage/UserActivity.java
- userinterfaces.profilepage.UserActivity
-tasks/SaveFeedPost.java
- tasks.SaveFeedPost
 userinterfaces/globalcomponents/posts/ActionsComponent.java
  userinterfaces.globalcomponents.posts.ActionsComponent
-tasks/UnsavePost.java
- tasks.UnsavePost
-tasks/JoinSubreddit.java
- tasks.JoinSubreddit
+userinterfaces/HomePage.java
+ userinterfaces.HomePage
 userinterfaces/globalcomponents/subreddit/SubHeader.java
  userinterfaces.globalcomponents.subreddit.SubHeader
+userinterfaces/profilepage/UserActivityComponent.java
+ userinterfaces.profilepage.UserActivityComponent
+tasks/saveposts/UnsavePost.java
+ tasks.saveposts.UnsavePost
+ tasks.saveposts.UnsavePost$SaveFeedPost
 userinterfaces/globalcomponents/header/postsfilters/PostFilters.java
  userinterfaces.globalcomponents.header.postsfilters.PostFilters
-tasks/SearchInSearchBar.java
- tasks.SearchInSearchBar
+userinterfaces/globalcomponents/posts/KarmaComponent.java
+ userinterfaces.globalcomponents.posts.KarmaComponent
 userinterfaces/globalcomponents/header/postsfilters/SearchComponent.java
  userinterfaces.globalcomponents.header.postsfilters.SearchComponent
-tasks/SearchInPostFilter.java
- tasks.SearchInPostFilter
-tasks/LeaveSubreddit.java
- tasks.LeaveSubreddit
+userinterfaces/globalcomponents/postsfeed/PostsFilter.java
+ userinterfaces.globalcomponents.postsfeed.PostsFilter
+userinterfaces/homepage/Header.java
+ userinterfaces.homepage.Header
+tasks/globaltasks/SearchInPostFilter.java
+ tasks.globaltasks.SearchInPostFilter
+tasks/globaltasks/Login.java
+ tasks.globaltasks.Login
+userinterfaces/globalcomponents/header/useractions/ProfileOptions.java
+ userinterfaces.globalcomponents.header.useractions.ProfileOptions
+tasks/joinsub/LeaveSubreddit.java
+ tasks.joinsub.LeaveSubreddit
+userinterfaces/loginpage/ClassicLoginComponents.java
+ userinterfaces.loginpage.ClassicLoginComponents
+userinterfaces/globalcomponents/createpost/CreateImagePostBody.java
+ userinterfaces.globalcomponents.createpost.CreateImagePostBody
+userinterfaces/globalcomponents/createpost/CreatePostFormComponent.java
+ userinterfaces.globalcomponents.createpost.CreatePostFormComponent
+userinterfaces/profilepage/ProfileOptionsComponent.java
+ userinterfaces.profilepage.ProfileOptionsComponent
+tasks/joinsub/JoinSubreddit.java
+ tasks.joinsub.JoinSubreddit
+tasks/globaltasks/SearchInSearchBar.java
+ tasks.globaltasks.SearchInSearchBar
+tasks/CreatePersonalPost.java
+ tasks.CreatePersonalPost
+userinterfaces/globalcomponents/postsfeed/PostsFeed.java
+ userinterfaces.globalcomponents.postsfeed.PostsFeed
+tasks/globaltasks/EnterProfilePage.java
+ tasks.globaltasks.EnterProfilePage
+tasks/saveposts/EntersActivityPosts.java
+ tasks.saveposts.EntersActivityPosts
+userinterfaces/globalcomponents/header/useractions/UserActions.java
+ userinterfaces.globalcomponents.header.useractions.UserActions

@@ -10,5 +10,5 @@
 
     @JoinSub
     Scenario: TEST TO BE PERFORMED - Join a subreddit from the main page.
-      When user wants to join a subreddit named r/Java
+      When user wants to join a subreddit named r/Instagramreality
       Then user expect for the 'My Communities' section to have the new item
